@@ -1,0 +1,134 @@
+/* ==================== PROFILE PAGE ==================== */
+.profile-page { max-width: 800px; margin: 0 auto; }
+
+.profile-hero {
+  background: linear-gradient(135deg, var(--primary), var(--secondary));
+  border-radius: var(--radius-lg);
+  padding: 2rem;
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  box-shadow: 0 4px 20px rgba(37,99,235,0.3);
+  flex-wrap: wrap;
+}
+.profile-avatar-large {
+  width: 80px; height: 80px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 2rem;
+  font-weight: 800;
+  border: 3px solid rgba(255,255,255,0.3);
+  flex-shrink: 0;
+}
+.profile-hero-info h1 { color: white; font-size: 1.5rem; font-weight: 700; margin-bottom: 0.25rem; }
+.profile-hero-info p { color: rgba(255,255,255,0.75); font-size: 0.875rem; }
+.member-badge {
+  display: inline-block;
+  margin-top: 0.5rem;
+  background: rgba(255,255,255,0.15);
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+/* Tabs */
+.profile-tabs {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+  background: white;
+  padding: 0.5rem;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  border: 1px solid var(--border);
+  flex-wrap: wrap;
+}
+.profile-tab {
+  flex: 1;
+  padding: 0.75rem 1rem;
+  border-radius: var(--radius-sm);
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  background: transparent;
+  transition: var(--transition);
+  text-align: center;
+}
+.profile-tab:hover { background: var(--bg-main); }
+.profile-tab.active {
+  background: var(--primary);
+  color: white;
+  box-shadow: 0 2px 8px rgba(37,99,235,0.3);
+}
+
+/* Profile Section */
+.profile-section {
+  background: white;
+  border-radius: var(--radius);
+  padding: 2rem;
+  box-shadow: var(--shadow-md);
+  border: 1px solid var(--border);
+}
+.profile-section h2 { font-size: 1.25rem; font-weight: 700; color: var(--text-primary); margin-bottom: 0.25rem; }
+.profile-section > p { color: var(--text-secondary); font-size: 0.875rem; margin-bottom: 2rem; }
+
+.profile-form { display: flex; flex-direction: column; gap: 1.25rem; }
+.form-group { display: flex; flex-direction: column; gap: 0.4rem; }
+.form-group label { font-size: 0.85rem; font-weight: 600; color: var(--text-primary); }
+.form-input {
+  padding: 0.7rem 1rem;
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-sm);
+  font-size: 0.9rem;
+  color: var(--text-primary);
+  transition: var(--transition);
+}
+.form-input:focus { border-color: var(--primary); box-shadow: 0 0 0 3px rgba(37,99,235,0.1); }
+.form-input.input-error { border-color: var(--danger); }
+
+.show-pass-toggle {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  cursor: pointer;
+}
+.show-pass-toggle input { cursor: pointer; }
+
+.btn-save {
+  align-self: flex-start;
+  padding: 0.75rem 2rem;
+  background: linear-gradient(135deg, var(--primary), var(--secondary));
+  color: white;
+  border-radius: var(--radius-sm);
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: all 0.2s;
+  border: none;
+  cursor: pointer;
+}
+.btn-save:hover:not(:disabled) { transform: translateY(-1px); box-shadow: 0 4px 15px rgba(37,99,235,0.3); }
+.btn-save:disabled { opacity: 0.7; cursor: not-allowed; }
+
+/* About Grid */
+.about-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem; }
+.about-card { background: var(--bg-main); border-radius: var(--radius-sm); padding: 1.5rem; border: 1px solid var(--border); }
+.about-card h3 { font-size: 1rem; font-weight: 700; color: var(--text-primary); margin-bottom: 1rem; }
+.about-card ul { display: flex; flex-direction: column; gap: 0.5rem; }
+.about-card li { font-size: 0.85rem; color: var(--text-secondary); }
+.about-card li strong { color: var(--text-primary); }
+
+@media (max-width: 600px) {
+  .profile-tabs { flex-direction: column; }
+  .profile-tab { flex: unset; }
+  .about-grid { grid-template-columns: 1fr; }
+  .profile-hero { text-align: center; justify-content: center; }
+}

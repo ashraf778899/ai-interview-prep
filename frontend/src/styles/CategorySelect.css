@@ -1,0 +1,86 @@
+/* ==================== CATEGORY SELECT ==================== */
+.category-page { max-width: 1100px; }
+
+.category-header {
+  margin-bottom: 2.5rem;
+  text-align: center;
+}
+.category-header h1 { font-size: 2rem; font-weight: 800; color: var(--text-primary); margin-bottom: 0.5rem; }
+.category-header p { color: var(--text-secondary); font-size: 1rem; }
+
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.cat-card {
+  background: white;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+  border: 1px solid var(--border);
+  transition: all 0.25s;
+  display: flex;
+  flex-direction: column;
+}
+.cat-card:hover { transform: translateY(-6px); box-shadow: var(--shadow-lg); }
+
+.cat-card-header {
+  padding: 2rem;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  min-height: 100px;
+}
+.cat-card-icon { font-size: 3rem; }
+.cat-card-badge {
+  color: white;
+  padding: 0.3rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.cat-card-body { padding: 1.5rem; flex: 1; }
+.cat-card-body h2 { font-size: 1.3rem; font-weight: 800; color: var(--text-primary); margin-bottom: 0.5rem; }
+.cat-card-body p { color: var(--text-secondary); font-size: 0.875rem; line-height: 1.6; margin-bottom: 1rem; }
+
+.topic-tags { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 1rem; }
+.topic-tag {
+  background: var(--bg-main);
+  border: 1px solid var(--border);
+  color: var(--text-secondary);
+  padding: 0.2rem 0.6rem;
+  border-radius: 6px;
+  font-size: 0.7rem;
+  font-weight: 500;
+}
+.cat-meta {
+  display: flex;
+  gap: 1rem;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.cat-card-footer { padding: 1rem 1.5rem 1.5rem; }
+.btn-start-cat {
+  display: block;
+  text-align: center;
+  color: white;
+  padding: 0.875rem;
+  border-radius: var(--radius-sm);
+  font-weight: 700;
+  font-size: 0.9rem;
+  transition: all 0.2s;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+.btn-start-cat:hover { opacity: 0.9; transform: translateY(-1px); }
+
+@media (max-width: 768px) {
+  .category-grid { grid-template-columns: 1fr; }
+  .category-header h1 { font-size: 1.5rem; }
+}

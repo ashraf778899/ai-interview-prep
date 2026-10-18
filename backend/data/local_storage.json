@@ -1,0 +1,722 @@
+{
+  "users": [
+    {
+      "_id": "user_ashraf_ali",
+      "id": "user_ashraf_ali",
+      "fullName": "Ashraf Ali",
+      "email": "pygameofpython@gmail.com",
+      "password": "$2a$10$zYkUSn7fm7KvFJe2XJbPWuHfSMex8zPpMCn9b/inN2W.iby64cxOq",
+      "totalInterviews": 8,
+      "totalPracticeTime": 4,
+      "createdAt": "2026-10-18T08:10:00.000Z"
+    }
+  ],
+  "interviews": [
+    {
+      "_id": "int_1792295107643_435",
+      "id": "int_1792295107643_435",
+      "userId": "user_ashraf_ali",
+      "category": "FULLSTACK",
+      "answers": [
+        {
+          "questionId": null,
+          "questionText": "How do you implement authentication and authorization in a full-stack application?",
+          "userAnswer": "",
+          "score": 0,
+          "maxScore": 10,
+          "feedback": "No answer provided. Please attempt the question to receive marks.",
+          "strengths": [],
+          "improvements": [
+            "Attempt every question",
+            "Provide clear definitions and examples"
+          ],
+          "evaluationMethod": "demo"
+        },
+        {
+          "questionId": null,
+          "questionText": "What is React.js, and why is it used in full-stack applications?",
+          "userAnswer": "",
+          "score": 0,
+          "maxScore": 10,
+          "feedback": "No answer provided. Please attempt the question to receive marks.",
+          "strengths": [],
+          "improvements": [
+            "Attempt every question",
+            "Provide clear definitions and examples"
+          ],
+          "evaluationMethod": "demo"
+        },
+        {
+          "questionId": null,
+          "questionText": "What is a REST API, and how does React communicate with a backend?",
+          "userAnswer": "",
+          "score": 0,
+          "maxScore": 10,
+          "feedback": "No answer provided. Please attempt the question to receive marks.",
+          "strengths": [],
+          "improvements": [
+            "Attempt every question",
+            "Provide clear definitions and examples"
+          ],
+          "evaluationMethod": "demo"
+        },
+        {
+          "questionId": null,
+          "questionText": "What is full-stack development, and what are its main components?",
+          "userAnswer": "",
+          "score": 0,
+          "maxScore": 10,
+          "feedback": "No answer provided. Please attempt the question to receive marks.",
+          "strengths": [],
+          "improvements": [
+            "Attempt every question",
+            "Provide clear definitions and examples"
+          ],
+          "evaluationMethod": "demo"
+        },
+        {
+          "questionId": null,
+          "questionText": "How would you debug a full-stack application when the frontend cannot display backend data?",
+          "userAnswer": "",
+          "score": 0,
+          "maxScore": 10,
+          "feedback": "No answer provided. Please attempt the question to receive marks.",
+          "strengths": [],
+          "improvements": [
+            "Attempt every question",
+            "Provide clear definitions and examples"
+          ],
+          "evaluationMethod": "demo"
+        }
+      ],
+      "totalScore": 0,
+      "maxPossibleScore": 50,
+      "percentage": 0,
+      "status": "completed",
+      "duration": 0,
+      "overallFeedback": "You scored 0% in FULLSTACK. Don't be discouraged - review the topics and practice more!",
+      "strengths": [],
+      "areasForImprovement": [
+        "Attempt every question",
+        "Provide clear definitions and examples"
+      ],
+      "evaluationMethod": "demo",
+      "createdAt": "2026-10-18T03:45:07.644Z",
+      "completedAt": "2026-10-18T03:45:07.644Z"
+    },
+    {
+      "_id": "int_1792294947844_47",
+      "id": "int_1792294947844_47",
+      "userId": "user_ashraf_ali",
+      "category": "FULLSTACK",
+      "answers": [
+        {
+          "questionId": null,
+          "questionText": "What is React.js?",
+          "userAnswer": "React is a popular open-source JavaScript library developed by Facebook for building user interfaces, especially single-page applications. It allows developers to create reusable UI components and manages state efficiently.",
+          "score": 9,
+          "maxScore": 10,
+          "feedback": "Outstanding answer! You covered key concepts clearly (React, components, UI). Well structured!",
+          "strengths": [
+            "Accurate technical terminology",
+            "Comprehensive explanation",
+            "Good depth of knowledge"
+          ],
+          "improvements": [
+            "Optionally add more on: props"
+          ],
+          "evaluationMethod": "demo"
+        }
+      ],
+      "totalScore": 9,
+      "maxPossibleScore": 10,
+      "percentage": 90,
+      "status": "completed",
+      "duration": 2,
+      "overallFeedback": "Outstanding performance! You scored 90% in FULLSTACK. You have a strong grasp of the concepts.",
+      "strengths": [
+        "Accurate technical terminology",
+        "Comprehensive explanation",
+        "Good depth of knowledge"
+      ],
+      "areasForImprovement": [
+        "Optionally add more on: props"
+      ],
+      "evaluationMethod": "demo",
+      "createdAt": "2026-10-18T03:42:27.845Z",
+      "completedAt": "2026-10-18T03:42:27.845Z"
+    },
+    {
+      "_id": "int_1792294357020_604",
+      "id": "int_1792294357020_604",
+      "userId": "user_ashraf_ali",
+      "category": "HR",
+      "answers": [
+        {
+          "questionId": null,
+          "questionText": "Tell me about yourself and your background.",
+          "userAnswer": "",
+          "score": 0,
+          "maxScore": 10,
+          "feedback": "No answer provided. Please attempt the question to receive marks.",
+          "strengths": [],
+          "improvements": [
+            "Attempt every question",
+            "Provide clear definitions and examples"
+          ],
+          "evaluationMethod": "demo"
+        },
+        {
+          "questionId": null,
+          "questionText": "Why do you want to work with us? Why should we hire you?",
+          "userAnswer": "",
+          "score": 0,
+          "maxScore": 10,
+          "feedback": "No answer provided. Please attempt the question to receive marks.",
+          "strengths": [],
+          "improvements": [
+            "Attempt every question",
+            "Provide clear definitions and examples"
+          ],
+          "evaluationMethod": "demo"
+        },
+        {
+          "questionId": null,
+          "questionText": "Describe a mistake you made in a past project and what you learned from it.",
+          "userAnswer": "",
+          "score": 0,
+          "maxScore": 10,
+          "feedback": "No answer provided. Please attempt the question to receive marks.",
+          "strengths": [],
+          "improvements": [
+            "Attempt every question",
+            "Provide clear definitions and examples"
+          ],
+          "evaluationMethod": "demo"
+        },
+        {
+          "questionId": null,
+          "questionText": "What are your greatest strengths and weaknesses?",
+          "userAnswer": "",
+          "score": 0,
+          "maxScore": 10,
+          "feedback": "No answer provided. Please attempt the question to receive marks.",
+          "strengths": [],
+          "improvements": [
+            "Attempt every question",
+            "Provide clear definitions and examples"
+          ],
+          "evaluationMethod": "demo"
+        },
+        {
+          "questionId": null,
+          "questionText": "What motivates you to perform at your best every day?",
+          "userAnswer": "",
+          "score": 0,
+          "maxScore": 10,
+          "feedback": "No answer provided. Please attempt the question to receive marks.",
+          "strengths": [],
+          "improvements": [
+            "Attempt every question",
+            "Provide clear definitions and examples"
+          ],
+          "evaluationMethod": "demo"
+        }
+      ],
+      "totalScore": 0,
+      "maxPossibleScore": 50,
+      "percentage": 0,
+      "status": "completed",
+      "duration": 0,
+      "overallFeedback": "You scored 0% in HR. Don't be discouraged - review the topics and practice more!",
+      "strengths": [],
+      "areasForImprovement": [
+        "Attempt every question",
+        "Provide clear definitions and examples"
+      ],
+      "evaluationMethod": "demo",
+      "createdAt": "2026-10-18T03:32:37.021Z",
+      "completedAt": "2026-10-18T03:32:37.021Z"
+    },
+    {
+      "_id": "int_1792292014527_148",
+      "id": "int_1792292014527_148",
+      "userId": "user_ashraf_ali",
+      "category": "DBMS",
+      "answers": [
+        {
+          "questionId": null,
+          "questionText": "Explain the difference between DROP, TRUNCATE, and DELETE in SQL.",
+          "userAnswer": "",
+          "score": 0,
+          "maxScore": 10,
+          "feedback": "No answer provided. Please attempt the question to receive marks.",
+          "strengths": [],
+          "improvements": [
+            "Attempt every question",
+            "Provide clear definitions and examples"
+          ],
+          "evaluationMethod": "demo"
+        },
+        {
+          "questionId": null,
+          "questionText": "What is the difference between Primary Key, Unique Key, and Foreign Key?",
+          "userAnswer": "",
+          "score": 0,
+          "maxScore": 10,
+          "feedback": "No answer provided. Please attempt the question to receive marks.",
+          "strengths": [],
+          "improvements": [
+            "Attempt every question",
+            "Provide clear definitions and examples"
+          ],
+          "evaluationMethod": "demo"
+        },
+        {
+          "questionId": null,
+          "questionText": "Explain Concurrency Control and Locking mechanisms in DBMS.",
+          "userAnswer": "",
+          "score": 0,
+          "maxScore": 10,
+          "feedback": "No answer provided. Please attempt the question to receive marks.",
+          "strengths": [],
+          "improvements": [
+            "Attempt every question",
+            "Provide clear definitions and examples"
+          ],
+          "evaluationMethod": "demo"
+        },
+        {
+          "questionId": null,
+          "questionText": "What is DBMS? Differentiate between DBMS and RDBMS.",
+          "userAnswer": "",
+          "score": 0,
+          "maxScore": 10,
+          "feedback": "No answer provided. Please attempt the question to receive marks.",
+          "strengths": [],
+          "improvements": [
+            "Attempt every question",
+            "Provide clear definitions and examples"
+          ],
+          "evaluationMethod": "demo"
+        },
+        {
+          "questionId": null,
+          "questionText": "Explain the ER (Entity-Relationship) Model and Cardinality in DBMS.",
+          "userAnswer": "",
+          "score": 0,
+          "maxScore": 10,
+          "feedback": "No answer provided. Please attempt the question to receive marks.",
+          "strengths": [],
+          "improvements": [
+            "Attempt every question",
+            "Provide clear definitions and examples"
+          ],
+          "evaluationMethod": "demo"
+        }
+      ],
+      "totalScore": 0,
+      "maxPossibleScore": 50,
+      "percentage": 0,
+      "status": "completed",
+      "duration": 0,
+      "overallFeedback": "You scored 0% in DBMS. Don't be discouraged - review the topics and practice more!",
+      "strengths": [],
+      "areasForImprovement": [
+        "Attempt every question",
+        "Provide clear definitions and examples"
+      ],
+      "evaluationMethod": "demo",
+      "createdAt": "2026-10-18T02:53:34.528Z",
+      "completedAt": "2026-10-18T02:53:34.528Z"
+    },
+    {
+      "_id": "int_1792291999194_131",
+      "id": "int_1792291999194_131",
+      "userId": "user_ashraf_ali",
+      "category": "DBMS",
+      "answers": [
+        {
+          "questionId": null,
+          "questionText": "Explain the ACID properties of transactions in databases.",
+          "userAnswer": "",
+          "score": 0,
+          "maxScore": 10,
+          "feedback": "No answer provided. Please attempt the question to receive marks.",
+          "strengths": [],
+          "improvements": [
+            "Attempt every question",
+            "Provide clear definitions and examples"
+          ],
+          "evaluationMethod": "demo"
+        },
+        {
+          "questionId": null,
+          "questionText": "Explain Dirty Read, Non-Repeatable Read, and Phantom Read concurrency phenomena.",
+          "userAnswer": "",
+          "score": 0,
+          "maxScore": 10,
+          "feedback": "No answer provided. Please attempt the question to receive marks.",
+          "strengths": [],
+          "improvements": [
+            "Attempt every question",
+            "Provide clear definitions and examples"
+          ],
+          "evaluationMethod": "demo"
+        },
+        {
+          "questionId": null,
+          "questionText": "Explain database normalization. What are 1NF, 2NF, and 3NF?",
+          "userAnswer": "",
+          "score": 0,
+          "maxScore": 10,
+          "feedback": "No answer provided. Please attempt the question to receive marks.",
+          "strengths": [],
+          "improvements": [
+            "Attempt every question",
+            "Provide clear definitions and examples"
+          ],
+          "evaluationMethod": "demo"
+        },
+        {
+          "questionId": null,
+          "questionText": "What is the difference between Primary Key, Unique Key, and Foreign Key?",
+          "userAnswer": "",
+          "score": 0,
+          "maxScore": 10,
+          "feedback": "No answer provided. Please attempt the question to receive marks.",
+          "strengths": [],
+          "improvements": [
+            "Attempt every question",
+            "Provide clear definitions and examples"
+          ],
+          "evaluationMethod": "demo"
+        },
+        {
+          "questionId": null,
+          "questionText": "What are database Views and what are their benefits?",
+          "userAnswer": "",
+          "score": 0,
+          "maxScore": 10,
+          "feedback": "No answer provided. Please attempt the question to receive marks.",
+          "strengths": [],
+          "improvements": [
+            "Attempt every question",
+            "Provide clear definitions and examples"
+          ],
+          "evaluationMethod": "demo"
+        }
+      ],
+      "totalScore": 0,
+      "maxPossibleScore": 50,
+      "percentage": 0,
+      "status": "completed",
+      "duration": 0,
+      "overallFeedback": "You scored 0% in DBMS. Don't be discouraged - review the topics and practice more!",
+      "strengths": [],
+      "areasForImprovement": [
+        "Attempt every question",
+        "Provide clear definitions and examples"
+      ],
+      "evaluationMethod": "demo",
+      "createdAt": "2026-10-18T02:53:19.195Z",
+      "completedAt": "2026-10-18T02:53:19.195Z"
+    },
+    {
+      "_id": "int_1792291969583_263",
+      "id": "int_1792291969583_263",
+      "userId": "user_ashraf_ali",
+      "category": "DBMS",
+      "answers": [
+        {
+          "questionId": null,
+          "questionText": "Explain Concurrency Control and Locking mechanisms in DBMS.",
+          "userAnswer": "",
+          "score": 0,
+          "maxScore": 10,
+          "feedback": "No answer provided. Please attempt the question to receive marks.",
+          "strengths": [],
+          "improvements": [
+            "Attempt every question",
+            "Provide clear definitions and examples"
+          ],
+          "evaluationMethod": "demo"
+        },
+        {
+          "questionId": null,
+          "questionText": "What is DBMS? Differentiate between DBMS and RDBMS.",
+          "userAnswer": "",
+          "score": 0,
+          "maxScore": 10,
+          "feedback": "No answer provided. Please attempt the question to receive marks.",
+          "strengths": [],
+          "improvements": [
+            "Attempt every question",
+            "Provide clear definitions and examples"
+          ],
+          "evaluationMethod": "demo"
+        },
+        {
+          "questionId": null,
+          "questionText": "What is the difference between Clustered and Non-Clustered index?",
+          "userAnswer": "",
+          "score": 0,
+          "maxScore": 10,
+          "feedback": "No answer provided. Please attempt the question to receive marks.",
+          "strengths": [],
+          "improvements": [
+            "Attempt every question",
+            "Provide clear definitions and examples"
+          ],
+          "evaluationMethod": "demo"
+        },
+        {
+          "questionId": null,
+          "questionText": "Explain Dirty Read, Non-Repeatable Read, and Phantom Read concurrency phenomena.",
+          "userAnswer": "",
+          "score": 0,
+          "maxScore": 10,
+          "feedback": "No answer provided. Please attempt the question to receive marks.",
+          "strengths": [],
+          "improvements": [
+            "Attempt every question",
+            "Provide clear definitions and examples"
+          ],
+          "evaluationMethod": "demo"
+        },
+        {
+          "questionId": null,
+          "questionText": "Explain database normalization. What are 1NF, 2NF, and 3NF?",
+          "userAnswer": "",
+          "score": 0,
+          "maxScore": 10,
+          "feedback": "No answer provided. Please attempt the question to receive marks.",
+          "strengths": [],
+          "improvements": [
+            "Attempt every question",
+            "Provide clear definitions and examples"
+          ],
+          "evaluationMethod": "demo"
+        }
+      ],
+      "totalScore": 0,
+      "maxPossibleScore": 50,
+      "percentage": 0,
+      "status": "completed",
+      "duration": 0,
+      "overallFeedback": "You scored 0% in DBMS. Don't be discouraged - review the topics and practice more!",
+      "strengths": [],
+      "areasForImprovement": [
+        "Attempt every question",
+        "Provide clear definitions and examples"
+      ],
+      "evaluationMethod": "demo",
+      "createdAt": "2026-10-18T02:52:49.583Z",
+      "completedAt": "2026-10-18T02:52:49.583Z"
+    },
+    {
+      "_id": "int_1792291602908_92",
+      "id": "int_1792291602908_92",
+      "userId": "user_ashraf_ali",
+      "category": "DBMS",
+      "answers": [
+        {
+          "questionId": null,
+          "questionText": "What is DBMS? Differentiate between DBMS and RDBMS.",
+          "userAnswer": "",
+          "score": 0,
+          "maxScore": 10,
+          "feedback": "No answer provided. Please attempt the question to receive marks.",
+          "strengths": [],
+          "improvements": [
+            "Attempt every question",
+            "Provide clear definitions and examples"
+          ],
+          "evaluationMethod": "demo"
+        },
+        {
+          "questionId": null,
+          "questionText": "Explain the ACID properties of transactions in databases.",
+          "userAnswer": "",
+          "score": 0,
+          "maxScore": 10,
+          "feedback": "No answer provided. Please attempt the question to receive marks.",
+          "strengths": [],
+          "improvements": [
+            "Attempt every question",
+            "Provide clear definitions and examples"
+          ],
+          "evaluationMethod": "demo"
+        },
+        {
+          "questionId": null,
+          "questionText": "What are different types of SQL JOINs? Explain with examples.",
+          "userAnswer": "",
+          "score": 0,
+          "maxScore": 10,
+          "feedback": "No answer provided. Please attempt the question to receive marks.",
+          "strengths": [],
+          "improvements": [
+            "Attempt every question",
+            "Provide clear definitions and examples"
+          ],
+          "evaluationMethod": "demo"
+        },
+        {
+          "questionId": null,
+          "questionText": "Explain database normalization. What are 1NF, 2NF, and 3NF?",
+          "userAnswer": "",
+          "score": 0,
+          "maxScore": 10,
+          "feedback": "No answer provided. Please attempt the question to receive marks.",
+          "strengths": [],
+          "improvements": [
+            "Attempt every question",
+            "Provide clear definitions and examples"
+          ],
+          "evaluationMethod": "demo"
+        },
+        {
+          "questionId": null,
+          "questionText": "What is indexing in databases? How does it improve performance?",
+          "userAnswer": "",
+          "score": 0,
+          "maxScore": 10,
+          "feedback": "No answer provided. Please attempt the question to receive marks.",
+          "strengths": [],
+          "improvements": [
+            "Attempt every question",
+            "Provide clear definitions and examples"
+          ],
+          "evaluationMethod": "demo"
+        }
+      ],
+      "totalScore": 0,
+      "maxPossibleScore": 50,
+      "percentage": 0,
+      "status": "completed",
+      "duration": 0,
+      "overallFeedback": "You scored 0% in DBMS. Don't be discouraged - review the topics and practice more!",
+      "strengths": [],
+      "areasForImprovement": [
+        "Attempt every question",
+        "Provide clear definitions and examples"
+      ],
+      "evaluationMethod": "demo",
+      "createdAt": "2026-10-18T02:46:42.909Z",
+      "completedAt": "2026-10-18T02:46:42.909Z"
+    },
+    {
+      "_id": "int_1792291552777_494",
+      "id": "int_1792291552777_494",
+      "userId": "user_ashraf_ali",
+      "category": "DBMS",
+      "answers": [
+        {
+          "questionId": null,
+          "questionText": "What is DBMS? Differentiate between DBMS and RDBMS.",
+          "userAnswer": "A DBMS (Database Management System) is a software application that lets users create, manage, and manipulate data stored in a database. An RDBMS (Relational Database Management System) is an advanced, specific type of DBMS that organizes data into related tables (rows and columns)",
+          "score": 8,
+          "maxScore": 10,
+          "feedback": "Outstanding answer! You covered key concepts clearly (DBMS, RDBMS, relational). Well structured!",
+          "strengths": [
+            "Accurate technical terminology",
+            "Comprehensive explanation",
+            "Good depth of knowledge"
+          ],
+          "improvements": [
+            "Optionally add more on: SQL, data integrity"
+          ],
+          "evaluationMethod": "demo"
+        },
+        {
+          "questionId": null,
+          "questionText": "Explain the ACID properties of transactions in databases.",
+          "userAnswer": "ACID properties are a set of four core principles—Atomicity, Consistency, Isolation, and Durability—that guarantee database transactions are processed reliably. A transaction is a sequence of operations treated as a single unit of work (like transferring money or booking a flight). Without ACID compliance, system crashes or concurrent user actions can easily corrupt data.",
+          "score": 9,
+          "maxScore": 10,
+          "feedback": "Outstanding answer! You covered key concepts clearly (ACID, Atomicity, Consistency). Well structured!",
+          "strengths": [
+            "Accurate technical terminology",
+            "Comprehensive explanation",
+            "Good depth of knowledge"
+          ],
+          "improvements": [],
+          "evaluationMethod": "demo"
+        },
+        {
+          "questionId": null,
+          "questionText": "What are different types of SQL JOINs? Explain with examples.",
+          "userAnswer": "SQL JOINs are used to combine rows from two or more tables based on a related column between them. Relational databases offer six primary types of JOINs that determine how unmatched data is handled.",
+          "score": 8,
+          "maxScore": 10,
+          "feedback": "Outstanding answer! You covered key concepts clearly (JOIN, INNER JOIN, LEFT JOIN). Well structured!",
+          "strengths": [
+            "Accurate technical terminology",
+            "Comprehensive explanation",
+            "Good depth of knowledge"
+          ],
+          "improvements": [
+            "Optionally add more on: INNER JOIN, LEFT JOIN"
+          ],
+          "evaluationMethod": "demo"
+        },
+        {
+          "questionId": null,
+          "questionText": "Explain database normalization. What are 1NF, 2NF, and 3NF?",
+          "userAnswer": "Database normalization is the process of organizing data in a relational database to reduce data redundancy, prevent update and deletion anomalies, and improve data integrity",
+          "score": 7,
+          "maxScore": 10,
+          "feedback": "Solid response! You showed good understanding of the topic with relevant points covered.",
+          "strengths": [
+            "Good foundational knowledge",
+            "Relevant concepts mentioned"
+          ],
+          "improvements": [
+            "Consider elaborating on: 1NF, 2NF",
+            "Add concrete real-world examples"
+          ],
+          "evaluationMethod": "demo"
+        },
+        {
+          "questionId": null,
+          "questionText": "What is indexing in databases? How does it improve performance?",
+          "userAnswer": "A database index is a separate, sorted data structure (such as a B-tree or Hash table) that helps the database engine locate data quickly without scanning every row in a table.",
+          "score": 8,
+          "maxScore": 10,
+          "feedback": "Outstanding answer! You covered key concepts clearly (index, B-tree, hash index). Well structured!",
+          "strengths": [
+            "Accurate technical terminology",
+            "Comprehensive explanation",
+            "Good depth of knowledge"
+          ],
+          "improvements": [
+            "Optionally add more on: hash index, query optimization"
+          ],
+          "evaluationMethod": "demo"
+        }
+      ],
+      "totalScore": 40,
+      "maxPossibleScore": 50,
+      "percentage": 80,
+      "status": "completed",
+      "duration": 2,
+      "overallFeedback": "Outstanding performance! You scored 80% in DBMS. You have a strong grasp of the concepts.",
+      "strengths": [
+        "Accurate technical terminology",
+        "Comprehensive explanation",
+        "Good depth of knowledge",
+        "Good foundational knowledge"
+      ],
+      "areasForImprovement": [
+        "Optionally add more on: SQL, data integrity",
+        "Optionally add more on: INNER JOIN, LEFT JOIN",
+        "Consider elaborating on: 1NF, 2NF",
+        "Add concrete real-world examples"
+      ],
+      "evaluationMethod": "demo",
+      "createdAt": "2026-10-18T02:45:52.777Z",
+      "completedAt": "2026-10-18T02:45:52.777Z"
+    }
+  ]
+}
