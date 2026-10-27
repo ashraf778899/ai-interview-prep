@@ -69,9 +69,28 @@ const Dashboard = () => {
             <h1>{getGreeting()}, {user?.fullName?.split(' ')[0] || 'User'}! 👋</h1>
             <p>Ready to practice today? Choose a category and start your interview!</p>
           </div>
-          <Link to="/categories" className="btn-start-interview">
-            🎯 Start Interview
-          </Link>
+          <div style={{ display: 'flex', gap: '10px', flexWrap: 'wrap', alignItems: 'center' }}>
+            <Link to="/resume-builder" style={{
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: '6px',
+              padding: '10px 18px',
+              backgroundColor: '#ffffff',
+              color: '#0f172a',
+              border: '1.5px solid #cbd5e1',
+              borderRadius: '10px',
+              fontWeight: 700,
+              fontSize: '14px',
+              textDecoration: 'none',
+              boxShadow: '0 2px 4px rgba(0,0,0,0.04)',
+              transition: 'all 0.2s'
+            }}>
+              📄 Resume Builder
+            </Link>
+            <Link to="/categories" className="btn-start-interview">
+              🎯 Start Interview
+            </Link>
+          </div>
         </div>
 
         {/* Stats Cards */}
@@ -104,6 +123,75 @@ const Dashboard = () => {
               <p>Practice Time</p>
             </div>
           </div>
+        </div>
+
+        {/* Resume Builder Feature Banner */}
+        <div style={{
+          margin: '24px 0',
+          padding: '20px 24px',
+          background: 'linear-gradient(135deg, #eff6ff 0%, #f5f3ff 100%)',
+          borderRadius: '16px',
+          border: '1.5px solid #bfdbfe',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'space-between',
+          flexWrap: 'wrap',
+          gap: '16px',
+          boxShadow: '0 4px 12px rgba(37, 99, 235, 0.06)'
+        }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '16px' }}>
+            <div style={{
+              width: '46px',
+              height: '46px',
+              borderRadius: '12px',
+              background: 'linear-gradient(135deg, #2563eb 0%, #7c3aed 100%)',
+              color: '#fff',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              fontSize: '22px',
+              boxShadow: '0 4px 10px rgba(37, 99, 235, 0.25)',
+              flexShrink: 0
+            }}>
+              📄
+            </div>
+            <div>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                <h3 style={{ fontSize: '17px', fontWeight: 800, color: '#0f172a', margin: 0 }}>
+                  AI Placement Resume Builder
+                </h3>
+                <span style={{
+                  background: '#7c3aed',
+                  color: '#ffffff',
+                  fontSize: '10px',
+                  fontWeight: 800,
+                  padding: '2px 8px',
+                  borderRadius: '9999px',
+                  textTransform: 'uppercase',
+                  letterSpacing: '0.04em'
+                }}>NEW</span>
+              </div>
+              <p style={{ margin: '4px 0 0', color: '#64748b', fontSize: '13px' }}>
+                Create, customize, and export professional ATS-friendly resumes across 4 modern templates. Download instant A4 PDF.
+              </p>
+            </div>
+          </div>
+          <Link to="/resume-builder" style={{
+            display: 'inline-flex',
+            alignItems: 'center',
+            gap: '6px',
+            padding: '10px 20px',
+            background: 'linear-gradient(135deg, #2563eb 0%, #7c3aed 100%)',
+            color: '#ffffff',
+            borderRadius: '10px',
+            fontWeight: 700,
+            fontSize: '13.5px',
+            textDecoration: 'none',
+            boxShadow: '0 4px 12px rgba(37, 99, 235, 0.25)',
+            whiteSpace: 'nowrap'
+          }}>
+            Build Resume Now &rarr;
+          </Link>
         </div>
 
         {/* Category Cards */}

@@ -5,6 +5,8 @@ const { protect } = require('../middleware/authMiddleware');
 
 // 90 Comprehensive Interview Questions (15 per category)
 const sampleQuestions = [
+  // Existing categories ... (omitted for brevity) //
+  
   // ==================== PYTHON (15 Questions) ====================
   { category: 'Python', difficulty: 'Easy', order: 1, maxScore: 10, questionText: 'What is Python? List its key features.', keywords: ['interpreted', 'high-level', 'dynamic typing', 'readable', 'versatile'], sampleAnswer: 'Python is a high-level, interpreted programming language known for its simplicity and readability. Key features include dynamic typing, automatic memory management, extensive standard library, support for multiple programming paradigms, and a large community.' },
   { category: 'Python', difficulty: 'Medium', order: 2, maxScore: 10, questionText: 'Explain the difference between lists and tuples in Python.', keywords: ['mutable', 'immutable', 'list', 'tuple', 'ordered', 'brackets'], sampleAnswer: 'Lists are mutable (can be changed) and use square brackets [], while tuples are immutable (cannot be changed) and use parentheses (). Lists are slower but flexible; tuples are faster and used for fixed data.' },
@@ -178,11 +180,25 @@ router.get('/:category', protect, async (req, res) => {
 
     // Shuffle and pick 5 random questions
     const shuffled = shuffleArray(pool);
-    const selected = shuffled.slice(0, 5).map((q, idx) => ({
-      ...((q.toObject && typeof q.toObject === 'function') ? q.toObject() : q),
-      order: idx + 1,
-      maxScore: q.maxScore || 10
-    }));
+    const selected = shuffled.slice(0, 5).map((q, idx) => {
+      let options = q.options ? [...q.options] : undefined;
+      let correctOption = q.correctOption;
+      if (options && correctOption) {
+        const letters = ['A', 'B', 'C', 'D'];
+        const paired = options.map((opt, i) => ({ opt, letter: letters[i] }));
+        const shuffledPairs = shuffleArray(paired);
+        const correctIndex = shuffledPairs.findIndex(pair => pair.letter === correctOption);
+        options = shuffledPairs.map(pair => pair.opt);
+        correctOption = correctIndex >= 0 ? letters[correctIndex] : correctOption;
+      }
+      return {
+        ...((q.toObject && typeof q.toObject === 'function') ? q.toObject() : q),
+        order: idx + 1,
+        maxScore: q.maxScore || 10,
+        ...(options && { options }),
+        ...(correctOption && { correctOption })
+      };
+    });
 
     res.json({
       success: true,
@@ -195,7 +211,25 @@ router.get('/:category', protect, async (req, res) => {
     const normalize = s => (s || '').replace(/[\s-_]+/g, '').toLowerCase();
     const fallbackPool = sampleQuestions.filter(q => normalize(q.category) === normalize(req.params.category));
     const shuffled = shuffleArray(fallbackPool.length > 0 ? fallbackPool : sampleQuestions);
-    const selected = shuffled.slice(0, 5).map((q, idx) => ({ ...q, order: idx + 1, maxScore: 10 }));
+    const selected = shuffled.slice(0, 5).map((q, idx) => {
+      let options = q.options ? [...q.options] : undefined;
+      let correctOption = q.correctOption;
+      if (options && correctOption) {
+        const letters = ['A', 'B', 'C', 'D'];
+        const paired = options.map((opt, i) => ({ opt, letter: letters[i] }));
+        const shuffledPairs = shuffleArray(paired);
+        const correctIndex = shuffledPairs.findIndex(pair => pair.letter === correctOption);
+        options = shuffledPairs.map(pair => pair.opt);
+        correctOption = correctIndex >= 0 ? letters[correctIndex] : correctOption;
+      }
+      return {
+        ...((q.toObject && typeof q.toObject === 'function') ? q.toObject() : q),
+        order: idx + 1,
+        maxScore: q.maxScore || 10,
+        ...(options && { options }),
+        ...(correctOption && { correctOption })
+      };
+    });
     res.json({ success: true, questions: selected, source: 'fallback' });
   }
 });

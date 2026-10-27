@@ -24,6 +24,7 @@ app.use('/api/auth', require('./routes/authRoutes'));
 app.use('/api/questions', require('./routes/questionRoutes'));
 app.use('/api/interviews', require('./routes/interviewRoutes'));
 app.use('/api/users', require('./routes/userRoutes'));
+app.use('/api/resumes', require('./routes/resumeRoutes'));
 
 // Health check route
 app.get('/', (req, res) => {

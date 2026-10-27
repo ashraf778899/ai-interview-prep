@@ -15,12 +15,14 @@ function loadData() {
   try {
     if (fs.existsSync(DATA_FILE)) {
       const raw = fs.readFileSync(DATA_FILE, 'utf8');
-      return JSON.parse(raw);
+      const parsed = JSON.parse(raw);
+      if (!parsed.resumes) parsed.resumes = [];
+      return parsed;
     }
   } catch (err) {
     console.error('Error reading local_storage.json:', err.message);
   }
-  return { users: [], interviews: [] };
+  return { users: [], interviews: [], resumes: [] };
 }
 
 // Helper to save data to disk
@@ -127,6 +129,52 @@ const memoryStore = {
   async getInterviewById(id, userId) {
     const { interviews } = loadData();
     return interviews.find(i => String(i._id) === String(id) && String(i.userId) === String(userId)) || null;
+  },
+
+  async getUserResume(userId) {
+    const { resumes } = loadData();
+    return resumes.find(r => String(r.userId) === String(userId) || String(r.user) === String(userId)) || null;
+  },
+
+  async saveUserResume(resumeData, userId) {
+    const data = loadData();
+    if (!data.resumes) data.resumes = [];
+
+    const existingIdx = data.resumes.findIndex(r => String(r.userId) === String(userId) || String(r.user) === String(userId));
+    if (existingIdx !== -1) {
+      data.resumes[existingIdx] = {
+        ...data.resumes[existingIdx],
+        ...resumeData,
+        userId,
+        user: userId,
+        updatedAt: new Date().toISOString()
+      };
+      saveData(data);
+      return data.resumes[existingIdx];
+    } else {
+      const id = 'res_' + Date.now();
+      const newResume = {
+        _id: id,
+        id,
+        ...resumeData,
+        userId,
+        user: userId,
+        createdAt: new Date().toISOString(),
+        updatedAt: new Date().toISOString()
+      };
+      data.resumes.unshift(newResume);
+      saveData(data);
+      return newResume;
+    }
+  },
+
+  async deleteUserResume(id, userId) {
+    const data = loadData();
+    if (!data.resumes) return false;
+    const initialLen = data.resumes.length;
+    data.resumes = data.resumes.filter(r => !(String(r._id) === String(id) && (String(r.userId) === String(userId) || String(r.user) === String(userId))));
+    saveData(data);
+    return data.resumes.length < initialLen;
   }
 };
 

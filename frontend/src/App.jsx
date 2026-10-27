@@ -12,6 +12,7 @@ import InterviewPage from './pages/InterviewPage';
 import ResultsPage from './pages/ResultsPage';
 import HistoryPage from './pages/HistoryPage';
 import ProfilePage from './pages/ProfilePage';
+import ResumeBuilder from './pages/ResumeBuilder';
 
 // Protected Route Component
 const ProtectedRoute = ({ children }) => {
@@ -38,6 +39,7 @@ function AppRoutes() {
       <Route path="/interview/:category" element={<ProtectedRoute><InterviewPage /></ProtectedRoute>} />
       <Route path="/results/:interviewId" element={<ProtectedRoute><ResultsPage /></ProtectedRoute>} />
       <Route path="/history" element={<ProtectedRoute><HistoryPage /></ProtectedRoute>} />
+      <Route path="/resume-builder" element={<ProtectedRoute><ResumeBuilder /></ProtectedRoute>} />
       <Route path="/profile" element={<ProtectedRoute><ProfilePage /></ProtectedRoute>} />
       <Route path="*" element={<Navigate to="/" replace />} />
     </Routes>

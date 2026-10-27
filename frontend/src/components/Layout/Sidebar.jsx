@@ -16,6 +16,7 @@ const Sidebar = () => {
   const navItems = [
     { path: '/dashboard', icon: '📊', label: 'Dashboard' },
     { path: '/categories', icon: '🎯', label: 'Practice' },
+    { path: '/resume-builder', icon: '📄', label: 'Resume Builder' },
     { path: '/history', icon: '📋', label: 'History' },
     { path: '/profile', icon: '👤', label: 'Profile' }
   ];

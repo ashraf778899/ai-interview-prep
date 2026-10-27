@@ -6,7 +6,7 @@
       "fullName": "Ashraf Ali",
       "email": "pygameofpython@gmail.com",
       "password": "$2a$10$zYkUSn7fm7KvFJe2XJbPWuHfSMex8zPpMCn9b/inN2W.iby64cxOq",
-      "totalInterviews": 9,
+      "totalInterviews": 10,
       "totalPracticeTime": 4,
       "createdAt": "2026-10-18T08:10:00.000Z"
     },
@@ -26,7 +26,7 @@
       "fullName": "mushraf",
       "email": "mushumushraf200@gmail.com",
       "password": "$2a$10$WAqTGnPFV73pI96waksnluUZTu4ydc0Dliondrdg33xfXy5fM2bBa",
-      "totalInterviews": 1,
+      "totalInterviews": 2,
       "totalPracticeTime": 0,
       "createdAt": "2026-10-18T04:47:31.324Z"
     },
@@ -42,6 +42,190 @@
     }
   ],
   "interviews": [
+    {
+      "_id": "int_1793005365708_858",
+      "id": "int_1793005365708_858",
+      "userId": "user_1792298851321_865",
+      "category": "FULLSTACK",
+      "answers": [
+        {
+          "questionId": null,
+          "questionText": "How do you implement authentication and authorization in a full-stack application?",
+          "userAnswer": "",
+          "score": 0,
+          "maxScore": 10,
+          "feedback": "No answer provided. Please attempt the question to receive marks.",
+          "strengths": [],
+          "improvements": [
+            "Attempt every question",
+            "Provide clear definitions and examples"
+          ],
+          "evaluationMethod": "demo"
+        },
+        {
+          "questionId": null,
+          "questionText": "What is a REST API, and how does React communicate with a backend?",
+          "userAnswer": "",
+          "score": 0,
+          "maxScore": 10,
+          "feedback": "No answer provided. Please attempt the question to receive marks.",
+          "strengths": [],
+          "improvements": [
+            "Attempt every question",
+            "Provide clear definitions and examples"
+          ],
+          "evaluationMethod": "demo"
+        },
+        {
+          "questionId": null,
+          "questionText": "Explain CRUD operations with a real-world example.",
+          "userAnswer": "",
+          "score": 0,
+          "maxScore": 10,
+          "feedback": "No answer provided. Please attempt the question to receive marks.",
+          "strengths": [],
+          "improvements": [
+            "Attempt every question",
+            "Provide clear definitions and examples"
+          ],
+          "evaluationMethod": "demo"
+        },
+        {
+          "questionId": null,
+          "questionText": "How would you debug a full-stack application when the frontend cannot display backend data?",
+          "userAnswer": "",
+          "score": 0,
+          "maxScore": 10,
+          "feedback": "No answer provided. Please attempt the question to receive marks.",
+          "strengths": [],
+          "improvements": [
+            "Attempt every question",
+            "Provide clear definitions and examples"
+          ],
+          "evaluationMethod": "demo"
+        },
+        {
+          "questionId": null,
+          "questionText": "Describe a full-stack project you developed and explain its architecture.",
+          "userAnswer": "",
+          "score": 0,
+          "maxScore": 10,
+          "feedback": "No answer provided. Please attempt the question to receive marks.",
+          "strengths": [],
+          "improvements": [
+            "Attempt every question",
+            "Provide clear definitions and examples"
+          ],
+          "evaluationMethod": "demo"
+        }
+      ],
+      "totalScore": 0,
+      "maxPossibleScore": 50,
+      "percentage": 0,
+      "status": "completed",
+      "duration": 0,
+      "overallFeedback": "You scored 0% in FULLSTACK. Don't be discouraged - review the topics and practice more!",
+      "strengths": [],
+      "areasForImprovement": [
+        "Attempt every question",
+        "Provide clear definitions and examples"
+      ],
+      "evaluationMethod": "demo",
+      "createdAt": "2026-10-26T09:02:45.709Z",
+      "completedAt": "2026-10-26T09:02:45.709Z"
+    },
+    {
+      "_id": "int_1792927773555_360",
+      "id": "int_1792927773555_360",
+      "userId": "user_ashraf_ali",
+      "category": "Python",
+      "answers": [
+        {
+          "questionId": null,
+          "questionText": "Explain Python's GIL (Global Interpreter Lock) and its impact on multithreading.",
+          "userAnswer": "",
+          "score": 0,
+          "maxScore": 10,
+          "feedback": "No answer provided. Please attempt the question to receive marks.",
+          "strengths": [],
+          "improvements": [
+            "Attempt every question",
+            "Provide clear definitions and examples"
+          ],
+          "evaluationMethod": "demo"
+        },
+        {
+          "questionId": null,
+          "questionText": "Explain generators and the yield keyword in Python.",
+          "userAnswer": "",
+          "score": 0,
+          "maxScore": 10,
+          "feedback": "No answer provided. Please attempt the question to receive marks.",
+          "strengths": [],
+          "improvements": [
+            "Attempt every question",
+            "Provide clear definitions and examples"
+          ],
+          "evaluationMethod": "demo"
+        },
+        {
+          "questionId": null,
+          "questionText": "What are *args and **kwargs in Python function definitions?",
+          "userAnswer": "",
+          "score": 0,
+          "maxScore": 10,
+          "feedback": "No answer provided. Please attempt the question to receive marks.",
+          "strengths": [],
+          "improvements": [
+            "Attempt every question",
+            "Provide clear definitions and examples"
+          ],
+          "evaluationMethod": "demo"
+        },
+        {
+          "questionId": null,
+          "questionText": "What are list comprehensions in Python? How are they useful?",
+          "userAnswer": "",
+          "score": 0,
+          "maxScore": 10,
+          "feedback": "No answer provided. Please attempt the question to receive marks.",
+          "strengths": [],
+          "improvements": [
+            "Attempt every question",
+            "Provide clear definitions and examples"
+          ],
+          "evaluationMethod": "demo"
+        },
+        {
+          "questionId": null,
+          "questionText": "What is the difference between \"is\" and \"==\" in Python?",
+          "userAnswer": "",
+          "score": 0,
+          "maxScore": 10,
+          "feedback": "No answer provided. Please attempt the question to receive marks.",
+          "strengths": [],
+          "improvements": [
+            "Attempt every question",
+            "Provide clear definitions and examples"
+          ],
+          "evaluationMethod": "demo"
+        }
+      ],
+      "totalScore": 0,
+      "maxPossibleScore": 50,
+      "percentage": 0,
+      "status": "completed",
+      "duration": 0,
+      "overallFeedback": "You scored 0% in Python. Don't be discouraged - review the topics and practice more!",
+      "strengths": [],
+      "areasForImprovement": [
+        "Attempt every question",
+        "Provide clear definitions and examples"
+      ],
+      "evaluationMethod": "demo",
+      "createdAt": "2026-10-25T11:29:33.556Z",
+      "completedAt": "2026-10-25T11:29:33.556Z"
+    },
     {
       "_id": "int_1792581110957_919",
       "id": "int_1792581110957_919",
@@ -1116,5 +1300,6 @@
       "createdAt": "2026-10-18T02:45:52.777Z",
       "completedAt": "2026-10-18T02:45:52.777Z"
     }
-  ]
+  ],
+  "resumes": []
 }
